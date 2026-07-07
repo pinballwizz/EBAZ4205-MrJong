@@ -154,9 +154,6 @@ P2_START   <= joy_BBBBFRLDU(6) when dipsw(0) = '0' else not joy(8);
 ---------------------------------------------------------------------------
 -- input mapping
 
--- p1 = { p1_b2, p2_coin2, p2_coin1, p1_b1, p1_down, p1_right, p1_left, p1_up };
--- p2 = { p2_b2, p1_strt2, p1_strt1, p2_b1, p2_down, p2_right, p2_left, p2_up };
-
 P1 <= SW_FIRE2 & '0' & SW_COIN & SW_FIRE1 & SW_DOWN & SW_RIGHT & SW_LEFT & SW_UP;
 P2 <= SW_FIRE2 & P2_START & P1_START & SW_FIRE1 & SW_DOWN & SW_RIGHT & SW_LEFT & SW_UP;
 ---------------------------------------------------------------------------
