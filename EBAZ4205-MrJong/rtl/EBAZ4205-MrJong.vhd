@@ -3,7 +3,7 @@
 --                             Code by Pierco
 --
 --                          Modified for EBAZ4205 
---                            by pinballwiz.org 
+--                             by pinballwiz
 --                               08/06/2026
 ---------------------------------------------------------------------------------
 -- Keyboard inputs :
